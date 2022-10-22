@@ -23,10 +23,10 @@
                     <a class="nav-item" href="#contact">Contact</a>
                 </nav>
                 <div class="email">
-                    <div class="email-box">
-                        <input type="email" name="email" class="email-input" for="" placeholder="Your Email" >
-                    </div>
-                    <button class="email-button">Subsribe</button>
+                    <form class="email-box">
+                        <input type="email" name="email" class="email-input email-input__header"  placeholder="Your Email" required>
+                        <input type="submit" name="submit" value="Subsribe" class="email-button email-button__header">
+                    </form>
                 </div>
             </div>
             <div class="mobile">
@@ -104,10 +104,10 @@
             <h3 class="h3-white">Subscribe to our Newsletter</h3>
             <p class="subcribe-paragraph">Available exclusivery on Figmaland</p>
         </div>
-        <div class="email subcribe-email">
-            <input type="email" name="email" class="email-input email-input__subcribe" placeholder="Your Email" >
-            <button class="email-button email-button__subcribe">Subsribe</button>
-        </div>
+        <form class="email-box subcribe-email">
+            <input type="email" name="email" class="email-input email-input__subcribe"  placeholder="Your Email" required>
+            <input type="submit" name="submit" value="Subsribe" class="email-button email-button__subcribe">
+        </form>
     </div>
     <div class="partners">
         <div class="title partners-title">
@@ -226,12 +226,12 @@
         </div>
         <div class="contacts">
             <div class="contacts-form">
-                <div class="form-box">
-                    <input class="form-box__style" type="text" name="text" placeholder="Your Name">
-                    <input class="form-box__style" type="email" name="email" placeholder="Your Email" >
-                    <textarea class="form-box__style form-box__message" name="message" placeholder="Your Message" cols="30" rows="130"></textarea>
+                <form class="form-box">
+                    <input class="form-box__style" type="text" name="text" placeholder="Your Name" required>
+                    <input class="form-box__style" type="email" name="email" placeholder="Your Email" required >
+                    <textarea class="form-box__style form-box__message" name="message" placeholder="Your Message" cols="30" rows="130" required></textarea>
                     <input type="submit" class="form-box__btn" value="Send">
-                </div>
+                </form>
             </div>
             <div class="contacts-info">
                 <div class="contacts-social">

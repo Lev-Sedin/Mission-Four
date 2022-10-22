@@ -197,19 +197,19 @@ body{
     }
 }
 .email{
-    display: flex;
     &-box{
-        width: 273px;
-        padding-right: 12px;
+        display: flex;
+        max-width: 426px;
     }
     &-input{
-        width: 100%;
+        width: 273px;
         height: 54px;
         background: #EFEFEF;
         border: 1px solid #E8E8E8;
         border-radius: 39px;
         padding: 19px 39px;
         transition: box-shadow 1s;
+        margin-right: 12px;
         
     }
     &-input__subcribe{
@@ -743,12 +743,14 @@ body{
         padding-bottom: 62px;
     }
     .email{
-        flex-direction: column;
-        &-button{
+        &-box{
+            flex-direction: column;
+        }
+        &-button__header{
             margin-top: 10px;
             width: 250px;
         }
-        &-input{
+        &-input__header{
             width: 250px;
         }
     }

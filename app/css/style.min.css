@@ -225,17 +225,14 @@ body {
   margin-right: 0;
 }
 
-.email {
+.email-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-.email-box {
-  width: 273px;
-  padding-right: 12px;
+  max-width: 426px;
 }
 .email-input {
-  width: 100%;
+  width: 273px;
   height: 54px;
   background: #EFEFEF;
   border: 1px solid #E8E8E8;
@@ -246,6 +243,7 @@ body {
   -o-transition: box-shadow 1s;
   transition: box-shadow 1s;
   transition: box-shadow 1s, -webkit-box-shadow 1s;
+  margin-right: 12px;
 }
 .email-input__subcribe {
   width: 353px;
@@ -865,17 +863,17 @@ body {
   .nav {
     padding-bottom: 62px;
   }
-  .email {
+  .email-box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .email-button {
+  .email-button__header {
     margin-top: 10px;
     width: 250px;
   }
-  .email-input {
+  .email-input__header {
     width: 250px;
   }
 }
